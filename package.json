@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "conventional-changelog-cli": "^2.0.5"
+  },
+  "scripts": {
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
+  }
+}
